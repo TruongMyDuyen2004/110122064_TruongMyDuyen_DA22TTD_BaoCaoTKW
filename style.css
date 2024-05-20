@@ -1,0 +1,284 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #;
+  color: #fff;
+  padding: 50px;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.product {
+  width: 300px;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+.product img {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 10px;
+}
+
+.product h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.product p {
+  margin-bottom: 10px;
+}
+
+.product button {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+.login-section {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .login-section form {
+      display: inline-block;
+    }
+
+    .login-section input[type="text"],
+    .login-section input[type="password"],
+    .login-section input[type="submit"] {
+      margin-bottom: 10px;
+      padding: 5px;
+    }
+
+    .login-section input[type="submit"] {
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+
+    .login-section input[type="submit"]:hover {
+      background-color: #45a049;
+    }
+
+    .register-link {
+      margin-top: 10px;
+      font-size: 14px;
+    }
+.menu {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa; /* Màu nền */
+}
+
+.contact-details {
+  width: 80%;
+  max-width: 600px; /* Độ rộng tối đa */
+  margin: 50px auto; /* Canh giữa */
+  background-color: #fff; /* Màu nền */
+  padding: 20px;
+  border-radius: 8px; /* Bo tròn viền */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Hiệu ứng bóng */
+}
+
+.contact-details h2 {
+  margin-top: 0;
+  font-size: 24px;
+  color: #333; /* Màu chữ */
+}
+
+.contact-details p {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #555; /* Màu chữ */
+}
+
+.contact-details p:last-child {
+  margin-bottom: 0;
+}
+
+.contact-details p:nth-child(odd) {
+  font-weight: bold; /* Chữ in đậm */
+}
+
+.contact-details p:nth-child(even) {
+  font-style: italic; /* Chữ nghiêng */
+}
+
+.contact-details p a {
+  color: #007bff; /* Màu chữ liên kết */
+  text-decoration: none;
+}
+
+.contact-details p a:hover {
+  text-decoration: underline;
+}
+body {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+      background-color: #f0f0f0; /* Add background color as needed */
+    }
+
+    .logo img {
+      max-height: 150px; /* Adjust height as needed */
+    }
+
+    nav ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      display: flex;
+    }
+
+    nav ul li {
+      margin-right: 20px;
+    }
+	.rating-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Đảm bảo các phần tử con được căn giữa theo chiều dọc */
+}
+
+.rating-container form {
+  margin: 0; /* Loại bỏ margin mặc định của form */
+}
+
+.rating-container h3 {
+  margin: 0; /* Loại bỏ margin mặc định của tiêu đề */
+}
+.rating-container {
+  display: flex;
+  align-items: center;
+}
+
+.rating-container form {
+  margin: 0;
+}
+
+.rating-container h3 {
+  margin: 0;
+}
+rating {
+    margin-bottom: 20px;
+}
+
+.rating input[type="radio"] {
+    display: none;
+}
+
+.rating label {
+    font-size: 25px;
+    color: #ffc107;
+    cursor: pointer;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+}
+
+button {
+    padding: 12px 30px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+.review-text {
+    color: #000;
+}
+.review-heading {
+    color: #000; /* Chọn màu đen cho chữ */
+    font-family: Arial, sans-serif; /* Chọn font chữ */
+    font-size: 40px; /* Chọn kích thước font */
+    font-weight: bold; /* Đặt độ đậm */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Hiệu ứng nổi chữ */
+}
+.rating {
+    display: inline-block;
+    font-size: 0; /* Hide the radio buttons */
+}
+
+.rating input[type="radio"] {
+    display: none; /* Hide the radio buttons */
+}
+
+.rating label {
+    font-size: 30px; /* Size of the stars */
+    color: #ccc; /* Default color of the stars */
+    cursor: pointer;
+}
+
+.rating label:hover,
+.rating label:hover ~ label,
+.rating input[type="radio"]:checked ~ label {
+    color: #ffc107; /* Color of the stars when hovered or checked */
+}
+.center {
+    text-align: center;
+}
+
+.bold {
+    font-weight: bold;
+}
